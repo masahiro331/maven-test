@@ -15,4 +15,11 @@
     <relativePath>../parent</relativePath>
   </parent>
 
+  <parent>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>grand-project</artifactId>
+    <version>1.0</version>
+    <relativePath>../grand</relativePath>
+  </parent>
+
 </project>
