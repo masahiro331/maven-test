@@ -15,11 +15,11 @@
     <relativePath>../parent</relativePath>
   </parent>
 
-  <parent>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>grand-project</artifactId>
-    <version>1.0</version>
-    <relativePath>../grand</relativePath>
-  </parent>
-
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.dummy</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>5.0.1.RELEASE</version>
+    </dependency>
+  </dependencies>
 </project>
