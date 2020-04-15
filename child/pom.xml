@@ -8,5 +8,11 @@
   <artifactId>child-project</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
+  <parent>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>parent-project</artifactId>
+    <version>1.0</version>
+    <relativePath>../parent</relativePath>
+  </parent>
 
 </project>
